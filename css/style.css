@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:wght@700|Satisfy|Dosis:wght@600|Caveat|Raleway:wght@200|Yellowtail&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+  color: #353535;
+}
+
+/*----Slider Section----*/
+.carousel {
+  margin-top: 75px;
+}
+.carousel-item img {
+  height: 520px;
+  object-fit: cover;
+}
+.carousel-caption {
+  padding-bottom: 250px !important;
+}
+.carousel-caption h1 {
+  font-size: 60px !important;
+  color: #ffffff !important;
+  animation-delay: 1s;
+  font-family: "Satisfy", cursive;
+}
+.carousel-caption h3 {
+  font-size: 25px !important;
+  color: #d9d9d9 !important;
+  animation-delay: 2s;
+  font-family: "Raleway", sans-serif;
+}
+.carousel-item .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: black;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel {
+    margin-top: 65px;
+  }
+  .carousel-caption h1 {
+    font-size: 28px !important;
+  }
+  .carousel-caption h3 {
+    font-size: 14px !important;
+  }
+}
